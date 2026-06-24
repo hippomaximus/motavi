@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://motavi.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://motavi.com/case-studies/</loc><priority>0.8</priority></url>
+  <url><loc>https://motavi.com/case-studies/lead-pipeline.html</loc><priority>0.7</priority></url>
+  <url><loc>https://motavi.com/solutions/lead-routing-automation.html</loc><priority>0.9</priority></url>
+  <url><loc>https://motavi.com/solutions/zapier-to-n8n-migration.html</loc><priority>0.9</priority></url>
+  <url><loc>https://motavi.com/solutions/crm-data-sync.html</loc><priority>0.9</priority></url>
+  <url><loc>https://motavi.com/solutions/ai-agent-workflows.html</loc><priority>0.9</priority></url>
+  <url><loc>https://motavi.com/solutions/automated-reporting.html</loc><priority>0.9</priority></url>
+  <url><loc>https://motavi.com/solutions/ecommerce-automation.html</loc><priority>0.9</priority></url>
+</urlset>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lead Routing Automation with n8n | Instant Alerts & Scoring — Motavi</title>
+<meta name="description" content="Capture, score, and route every lead automatically with self-hosted n8n. Form submission to Postgres, email notification, and instant Telegram or Slack alert in under two seconds. Never lose a lead to slow follow-up.">
+<link rel="canonical" href="https://motavi.com/solutions/lead-routing-automation.html">
+<meta property="og:title" content="Lead Routing Automation with n8n | Instant Alerts & Scoring — Motavi">
+<meta property="og:description" content="Capture, score, and route every lead automatically with self-hosted n8n. Form submission to Postgres, email notification, and instant Telegram or Slack alert in under two seconds. Never lose a lead to slow follow-up.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Lead Routing Automation",
+  "provider": { "@type": "ProfessionalService", "name": "Motavi", "url": "https://motavi.com" },
+  "serviceType": "Lead routing automation",
+  "description": "Capture, score, and route every lead automatically with self-hosted n8n. Form submission to Postgres, email notification, and instant Telegram or Slack alert in under two seconds. Never lose a lead to slow follow-up.",
+  "areaServed": ["Thailand","Singapore","United States","United Kingdom","Europe"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{"@type":"Question","name":"How fast can a lead routing automation notify my team?","acceptedAnswer":{"@type":"Answer","text":"With a webhook-triggered n8n workflow, the lead is captured, stored, and the alert delivered to email and Telegram or Slack in under two seconds of the form being submitted."}},{"@type":"Question","name":"Does this work with my existing CRM?","acceptedAnswer":{"@type":"Answer","text":"Yes. The workflow can write leads into HubSpot, Pipedrive, Salesforce, Airtable, or a Postgres database, alongside or instead of notifications. See our CRM and data sync solution for keeping those records in sync."}},{"@type":"Question","name":"Do I own the workflow after it's built?","acceptedAnswer":{"@type":"Answer","text":"Yes. The n8n workflow runs on your own self-hosted instance and the JSON is yours to keep, edit, and extend."}}]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="/" class="brand">
+      <svg class="brand-mark" width="30" height="30" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#6d28d9"/><circle cx="9" cy="9" r="3" fill="#c026d3"/><circle cx="23" cy="9" r="3" fill="#a855f7"/><circle cx="16" cy="23" r="3" fill="#fff"/><path d="M9 9 L16 23 L23 9" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".85"/></svg>
+      Motavi
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="/#how">How it works</a>
+      <a href="/#solutions">Solutions</a>
+      <a href="/case-studies/">Case studies</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/#contact" class="nav-cta">Book a call</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1a1130" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  </div>
+</header>
+
+<div class="wrap"><nav class="crumb"><a href="/">Home</a> <span>/</span> <a href="/#solutions">Solutions</a> <span>/</span> Lead routing automation</nav></div>
+
+<section style="padding-top:36px;">
+  <div class="wrap">
+    <span class="eyebrow">Lead routing &amp; alerts</span>
+    <h1 style="max-width:18ch; margin:14px 0 20px;">Route every lead the moment it lands.</h1>
+    <p class="hero-sub" style="max-width:60ch;">Speed to lead decides who wins the deal. We build self-hosted n8n workflows that capture each form submission, score and qualify it, write it to your database, and alert the right person instantly — so no lead sits in an inbox going cold.</p>
+    <div class="hero-actions" style="margin-top:26px;">
+      <a href="/#pricing" class="btn btn-primary">Deploy this for $47</a>
+      <a href="/#contact" class="btn btn-ghost">Book a strategy call</a>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:20px;">
+  <div class="wrap">
+    <article class="prose">
+<h2>Why manual lead routing costs you deals</h2>
+<p>The data on speed to lead is brutal: the odds of qualifying a lead drop sharply with every minute that passes after submission. Yet most teams still copy form entries into a CRM by hand, forward them in a group chat, and assign them in a Monday meeting. By then the prospect has already talked to a competitor who replied first.</p>
+<p>Manual lead routing fails in three predictable ways. Leads get lost between tools when someone forgets to copy them over. They get routed to the wrong person because assignment rules live in someone's head. And they get no acknowledgement, so the prospect assumes you're not interested. Each of these is a leak in your pipeline that paid traffic makes more expensive.</p>
+
+<h2>What an automated lead routing workflow does</h2>
+<p>A lead routing automation built in n8n turns that entire chain into a single pipeline that fires the instant a form is submitted. Here is the exact pattern we run in production:</p>
+<ul>
+<li><strong>Capture</strong> — a webhook receives the form submission along with UTM parameters, so you know which campaign, ad, or channel produced the lead.</li>
+<li><strong>Score and qualify</strong> — conditional logic checks company size, budget signals, or any field you define, then tags the lead hot, warm, or disqualified.</li>
+<li><strong>Store</strong> — the lead is written to a Postgres database (or your CRM) as a clean, queryable record — no copy-paste, no spreadsheet drift.</li>
+<li><strong>Notify</strong> — the assigned rep gets an email through Mailgun and an instant Telegram or Slack ping, so they can respond within seconds.</li>
+<li><strong>Acknowledge</strong> — the prospect receives an automatic reply confirming you've got their message, which alone lifts reply rates.</li>
+</ul>
+<div class="callout"><p>This is not a hypothetical. The contact form on this very site runs the webhook to Postgres to Mailgun to Telegram pipeline described above — the lead you send hits a database and buzzes a phone in under two seconds. <a href="/case-studies/lead-pipeline.html" style="color:var(--violet);font-weight:600;">See the full build →</a></p></div>
+
+<h2>Where the leads come from</h2>
+<p>The workflow connects to wherever your leads already originate: web forms, Typeform, Facebook lead ads, LINE, WhatsApp, calendar bookings, or a chatbot. Because n8n is self-hosted, the lead data never passes through a third-party automation cloud — it goes straight from the source into infrastructure you control. For teams handling customer records under privacy regulations, that data sovereignty is the difference between a clean audit and a liability.</p>
+
+<h2>Routing rules that match how you actually sell</h2>
+<p>Round-robin across a sales team, territory-based assignment by region, priority routing that sends enterprise leads straight to a senior closer, or after-hours fallback that pings a different channel — the routing logic encodes how your team works rather than forcing your team to work around the tool. As your process changes, the workflow changes with it.</p>
+
+      <h2>Frequently asked questions</h2>
+      <h3>How fast can a lead routing automation notify my team?</h3>
+      <p>With a webhook-triggered n8n workflow, the lead is captured, stored, and the alert delivered to email and Telegram or Slack in under two seconds of the form being submitted.</p>
+      <h3>Does this work with my existing CRM?</h3>
+      <p>Yes. The workflow can write leads into HubSpot, Pipedrive, Salesforce, Airtable, or a Postgres database, alongside or instead of notifications. See our CRM and data sync solution for keeping those records in sync.</p>
+      <h3>Do I own the workflow after it's built?</h3>
+      <p>Yes. The n8n workflow runs on your own self-hosted instance and the JSON is yours to keep, edit, and extend.</p>
+
+    </article>
+
+    <div class="related">
+      <h4>Related automation solutions</h4>
+      <div class="related-links">
+        <a href="/solutions/zapier-to-n8n-migration.html">Zapier to n8n migration</a>
+        <a href="/solutions/crm-data-sync.html">CRM &amp; data sync</a>
+        <a href="/solutions/ai-agent-workflows.html">AI agent workflows</a>
+        <a href="/solutions/automated-reporting.html">Automated reporting</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-lilac">
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>Stop losing leads to slow follow-up.</h2>
+      <p>Tell us how leads reach you today. We'll show you the routing workflow that gets them to the right person in seconds.</p>
+      <a href="/#contact" class="btn btn-primary btn-lg">Tell us what to automate</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="brand" style="color:#fff;"><svg class="brand-mark" width="30" height="30" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#6d28d9"/><circle cx="9" cy="9" r="3" fill="#c026d3"/><circle cx="23" cy="9" r="3" fill="#a855f7"/><circle cx="16" cy="23" r="3" fill="#fff"/><path d="M9 9 L16 23 L23 9" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".85"/></svg> Motavi</a>
+        <p>Self-hosted n8n automation, architected by an operator who runs eight companies on this exact stack.</p>
+      </div>
+      <div><h4>Solutions</h4>
+        <a href="/solutions/lead-routing-automation.html">Lead routing</a>
+        <a href="/solutions/zapier-to-n8n-migration.html">Zapier migration</a>
+        <a href="/solutions/crm-data-sync.html">CRM sync</a>
+        <a href="/solutions/ai-agent-workflows.html">AI agents</a>
+        <a href="/solutions/automated-reporting.html">Reporting</a>
+        <a href="/solutions/ecommerce-automation.html">E-commerce</a>
+      </div>
+      <div><h4>Company</h4>
+        <a href="/#how">How it works</a>
+        <a href="/case-studies/">Case studies</a>
+        <a href="/#pricing">Pricing</a>
+        <a href="/#contact">Contact</a>
+      </div>
+      <div><h4>Get started</h4>
+        <a href="/#pricing">First workflow — $47</a>
+        <a href="/#contact">Book a strategy call</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Motavi. All rights reserved.</span><span class="mono">Built on n8n · Postgres · Hetzner</span></div>
+  </div>
+</footer>
+<script>
+document.getElementById('navToggle').addEventListener('click',function(){document.getElementById('navLinks').classList.toggle('open');});
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Case Studies — Real n8n Automations We Run in Production | Motavi</title>
+<meta name="description" content="Real n8n workflows Motavi built and runs across eight live companies: lead capture pipelines, content intelligence feeds, e-commerce operations, and AI classification — the proof behind the service.">
+<link rel="canonical" href="https://motavi.com/case-studies/">
+<meta property="og:title" content="Case Studies — Motavi n8n Automations">
+<meta property="og:description" content="Real n8n workflows we built and run in production across eight companies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="/" class="brand">
+      <svg class="brand-mark" width="30" height="30" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#6d28d9"/><circle cx="9" cy="9" r="3" fill="#c026d3"/><circle cx="23" cy="9" r="3" fill="#a855f7"/><circle cx="16" cy="23" r="3" fill="#fff"/><path d="M9 9 L16 23 L23 9" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".85"/></svg>
+      Motavi
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="/#how">How it works</a>
+      <a href="/#solutions">Solutions</a>
+      <a href="/case-studies/">Case studies</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/#contact" class="nav-cta">Book a call</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1a1130" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  </div>
+</header>
+
+<div class="wrap"><nav class="crumb"><a href="/">Home</a> <span>/</span> Case studies</nav></div>
+
+<section style="padding-top:36px;">
+  <div class="wrap">
+    <span class="eyebrow">Proof, not promises</span>
+    <h1 style="max-width:20ch; margin:14px 0 20px;">We run our own companies on the automations we sell.</h1>
+    <p class="hero-sub" style="max-width:62ch;">Most agencies show you client logos. We can show you the live pipelines running our own eight businesses — built on self-hosted n8n, Postgres, and Hetzner. Here's what's actually in production.</p>
+  </div>
+</section>
+
+<section style="padding-top:20px;">
+  <div class="wrap">
+    <div class="grid grid-2">
+      <a href="/case-studies/lead-pipeline.html" class="card card-link">
+        <span class="eyebrow" style="margin-bottom:14px;">Flagship build</span>
+        <h3>The lead capture pipeline behind every Motavi site</h3>
+        <p>A single webhook-to-Postgres-to-Mailgun-to-Telegram workflow that captures leads with full UTM attribution, stores them queryably, notifies instantly, and auto-replies — running across a portfolio of brands.</p>
+        <span class="more">Read the build →</span>
+      </a>
+      <div class="card">
+        <span class="eyebrow" style="margin-bottom:14px;">In production</span>
+        <h3>Content intelligence feed</h3>
+        <p>An ingestion pipeline that pulls from news, social, and trends sources, hands each item to a model for relevance classification, and pushes the keepers to Telegram in real time — turning a daily reading chore into an automatic brief.</p>
+        <span class="muted mono" style="font-size:.82rem; display:block; margin-top:14px;">RSS · X · News → Claude classifier → Telegram</span>
+      </div>
+      <div class="card">
+        <span class="eyebrow" style="margin-bottom:14px;">In production</span>
+        <h3>E-commerce operations</h3>
+        <p>Order capture, inventory threshold alerts, and post-purchase sequences across DTC brands, wired into a Postgres backbone — the same pattern behind our <a href="/solutions/ecommerce-automation.html">e-commerce automation</a> builds.</p>
+        <span class="muted mono" style="font-size:.82rem; display:block; margin-top:14px;">Store → Postgres → alerts + sequences</span>
+      </div>
+      <div class="card">
+        <span class="eyebrow" style="margin-bottom:14px;">In production</span>
+        <h3>Marketing &amp; reporting automation</h3>
+        <p>Scheduled performance pulls and anomaly alerts that replace manual spreadsheet assembly — the live version of our <a href="/solutions/automated-reporting.html">automated reporting</a> solution.</p>
+        <span class="muted mono" style="font-size:.82rem; display:block; margin-top:14px;">Analytics + CRM → scheduled brief</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-lilac">
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>Want this running in your business?</h2>
+      <p>Start with one workflow for $47, or book a call to map a full automation architecture.</p>
+      <a href="/#contact" class="btn btn-primary btn-lg">Get started</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="brand" style="color:#fff;"><svg class="brand-mark" width="30" height="30" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#6d28d9"/><circle cx="9" cy="9" r="3" fill="#c026d3"/><circle cx="23" cy="9" r="3" fill="#a855f7"/><circle cx="16" cy="23" r="3" fill="#fff"/><path d="M9 9 L16 23 L23 9" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".85"/></svg> Motavi</a>
+        <p>Self-hosted n8n automation, architected by an operator who runs eight companies on this exact stack.</p>
+      </div>
+      <div><h4>Solutions</h4>
+        <a href="/solutions/lead-routing-automation.html">Lead routing</a>
+        <a href="/solutions/zapier-to-n8n-migration.html">Zapier migration</a>
+        <a href="/solutions/crm-data-sync.html">CRM sync</a>
+        <a href="/solutions/ai-agent-workflows.html">AI agents</a>
+        <a href="/solutions/automated-reporting.html">Reporting</a>
+        <a href="/solutions/ecommerce-automation.html">E-commerce</a>
+      </div>
+      <div><h4>Company</h4>
+        <a href="/#how">How it works</a>
+        <a href="/case-studies/">Case studies</a>
+        <a href="/#pricing">Pricing</a>
+        <a href="/#contact">Contact</a>
+      </div>
+      <div><h4>Get started</h4>
+        <a href="/#pricing">First workflow — $47</a>
+        <a href="/#contact">Book a strategy call</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Motavi. All rights reserved.</span><span class="mono">Built on n8n · Postgres · Hetzner</span></div>
+  </div>
+</footer>
+<script>document.getElementById('navToggle').addEventListener('click',function(){document.getElementById('navLinks').classList.toggle('open');});</script>
+</body>
+</html>

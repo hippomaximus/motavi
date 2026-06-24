@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://motavi.com/sitemap.xml

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Motavi — n8n Automation Studio | Self-Hosted Workflows for SaaS & Agencies</title>
+<meta name="description" content="Motavi builds self-hosted n8n automations that cut manual work and kill the Zapier bill. Lead routing, CRM sync, AI workflows — architected by an operator who runs eight companies on this exact stack. Deploy your first workflow for $47.">
+<link rel="canonical" href="https://motavi.com/">
+<meta property="og:title" content="Motavi — n8n Automation Studio">
+<meta property="og:description" content="Self-hosted n8n automation for SaaS & agencies. Deploy your first production workflow for $47.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://motavi.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Motavi",
+  "description": "Self-hosted n8n automation studio for SaaS companies and agencies. Workflow automation, lead routing, CRM integration, and AI agent development.",
+  "url": "https://motavi.com",
+  "areaServed": ["Thailand", "Singapore", "United States", "United Kingdom", "Europe"],
+  "knowsAbout": ["n8n", "workflow automation", "Zapier migration", "self-hosted automation", "lead routing", "CRM integration", "AI agents", "Postgres", "webhook automation"],
+  "serviceType": "n8n workflow automation"
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="/" class="brand">
+      <svg class="brand-mark" width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="#6d28d9"/>
+        <circle cx="9" cy="9" r="3" fill="#c026d3"/>
+        <circle cx="23" cy="9" r="3" fill="#a855f7"/>
+        <circle cx="16" cy="23" r="3" fill="#fff"/>
+        <path d="M9 9 L16 23 L23 9" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".85"/>
+      </svg>
+      Motavi
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="/#how">How it works</a>
+      <a href="/#solutions">Solutions</a>
+      <a href="/case-studies/">Case studies</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/#contact" class="nav-cta">Book a call</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1a1130" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-bg" id="heroCanvas"></div>
+  <div class="wrap">
+    <span class="eyebrow"><span class="dot"></span> Self-hosted n8n · Bangkok → worldwide</span>
+    <h1>Your team is doing by hand what <span class="grad">n8n could run while they sleep.</span></h1>
+    <p class="hero-sub">Lead routing, CRM sync, reporting, follow-ups — the busywork eating 20+ hours a week. We architect self-hosted n8n workflows that run it for you, on your own infrastructure, without the per-task Zapier bill.</p>
+    <div class="hero-actions">
+      <a href="#pricing" class="btn btn-primary btn-lg">Deploy your first workflow — $47</a>
+      <a href="#contact" class="btn btn-ghost btn-lg">Book a strategy call</a>
+    </div>
+    <div class="hero-trust">
+      <span class="lbl">Built on the same stack that runs:</span>
+      <div class="chips">
+        <span class="chip">8 live companies</span>
+        <span class="chip">Postgres + Hetzner</span>
+        <span class="chip">400+ integrations</span>
+        <span class="chip">Telegram alerting</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROBLEM-FIRST ============ -->
+<section class="bg-lilac" id="problem">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The real cost</span>
+      <h2>Here's what's broken — and why the common fix doesn't work.</h2>
+      <p>Most teams reach for Zapier or Make, then hit a wall: per-task pricing that balloons at scale, fragile connections that break silently, and no real control over their own data.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg></div>
+        <h3>The Zapier bill keeps climbing</h3>
+        <p>Per-task pricing punishes you for growing. At volume, a workflow that costs $20 a month on n8n runs $800+ on Zapier. You're renting your own automation.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><path d="M12 9v4M12 17h.01"/></svg></div>
+        <h3>Workflows break at 3am</h3>
+        <p>No retry logic, no error routing, no monitoring. An API changes, a connection drops, and nobody knows until a customer complains the next morning.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+        <h3>Your data lives on someone else's server</h3>
+        <p>For anyone handling customer records, payments, or anything regulated, sending it through a third-party cloud is a liability you didn't sign up for.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE FIX / OPERATOR ANGLE ============ -->
+<section id="how">
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:center; gap:48px;">
+      <div>
+        <span class="eyebrow">What actually works</span>
+        <h2>We don't just build automations. We run our own companies on them.</h2>
+        <p class="muted" style="font-size:1.1rem; margin:18px 0;">Most agencies build with other people's money on other people's stacks. Motavi runs eight live businesses — e-commerce, importing, publishing, SaaS — on a self-hosted n8n + Postgres + Hetzner stack. Lead capture, content pipelines, inventory alerts, intelligence feeds into Telegram. Every workflow we sell, we've already shipped to production for ourselves.</p>
+        <p class="muted" style="font-size:1.1rem;">That means you get architecture, not just configuration: webhook endpoints, retry logic, error routing, and monitoring baked in from day one — so it doesn't quietly break when you're not looking.</p>
+        <a href="/case-studies/" class="btn btn-ghost" style="margin-top:24px;">See how we built ours →</a>
+      </div>
+      <div>
+        <div class="offer">
+          <h3 style="margin-bottom:18px;">A workflow we run in production</h3>
+          <pre class="mono" style="font-size:.82rem; line-height:1.7; color:var(--violet-deep); background:var(--lilac-2); padding:20px; border-radius:12px; overflow-x:auto;">
+Form submit
+   │
+   ▼
+[ Webhook ]  ── capture + UTM tags
+   │
+   ▼
+[ Postgres ] ── write lead row
+   │
+   ├─▶ [ Mailgun ]  notify + auto-reply
+   │
+   └─▶ [ Telegram ] instant ping to phone
+          </pre>
+          <p class="muted" style="font-size:.92rem; margin-top:16px;">The exact pipeline capturing the lead you're about to send through the form below — lead hits a database, you get an email, and your phone buzzes in under two seconds. <a href="/case-studies/lead-pipeline.html">Read how we built it →</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STAT BAND ============ -->
+<section class="bg-ink">
+  <div class="wrap">
+    <div class="stat-band">
+      <div class="stat"><div class="big">30–70%</div><div class="lbl">manual work removed after a proper build</div></div>
+      <div class="stat"><div class="big">~90%</div><div class="lbl">cost cut migrating off per-task platforms</div></div>
+      <div class="stat"><div class="big">$28B</div><div class="lbl">workflow automation market by 2034</div></div>
+      <div class="stat"><div class="big">Weeks</div><div class="lbl">to production — not a 3-month hire</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOLUTIONS HUB ============ -->
+<section id="solutions" class="bg-lilac">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Solutions</span>
+      <h2>The workflows teams ask us for first.</h2>
+      <p>Each one is a self-contained build you can start with — then expand into a full automation architecture.</p>
+    </div>
+    <div class="grid grid-3">
+      <a href="/solutions/lead-routing-automation.html" class="card card-link">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg></div>
+        <h3>Lead routing &amp; instant alerts</h3>
+        <p>Capture every form fill, score it, route it to the right person, and ping your team in seconds — never lose a lead to a slow follow-up again.</p>
+        <span class="more">Explore lead routing →</span>
+      </a>
+      <a href="/solutions/zapier-to-n8n-migration.html" class="card card-link">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M21 3l-7 7M8 21H3v-5M3 21l7-7"/></svg></div>
+        <h3>Zapier → n8n migration</h3>
+        <p>Move your workflows off per-task pricing onto self-hosted n8n. Same automations, a fraction of the cost, full ownership of your data.</p>
+        <span class="more">Explore migration →</span>
+      </a>
+      <a href="/solutions/crm-data-sync.html" class="card card-link">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+        <h3>CRM &amp; data sync</h3>
+        <p>Keep HubSpot, Pipedrive, Airtable, and your databases in sync automatically. No more stale records or manual exports between tools.</p>
+        <span class="more">Explore CRM sync →</span>
+      </a>
+      <a href="/solutions/ai-agent-workflows.html" class="card card-link">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9h.01M15 9h.01M9 14h6"/></svg></div>
+        <h3>AI agent workflows</h3>
+        <p>Put Claude or GPT to work inside your pipelines: classify, summarize, draft, and decide — automation that thinks, not just moves data.</p>
+        <span class="more">Explore AI workflows →</span>
+      </a>
+      <a href="/solutions/automated-reporting.html" class="card card-link">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
+        <h3>Automated reporting</h3>
+        <p>Pull data from your analytics, CRM, and store into scheduled reports — delivered to Slack, email, or a dashboard without anyone exporting a spreadsheet.</p>
+        <span class="more">Explore reporting →</span>
+      </a>
+      <a href="/solutions/ecommerce-automation.html" class="card card-link">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></div>
+        <h3>E-commerce automation</h3>
+        <p>Order alerts, inventory thresholds, abandoned-cart flows, and post-purchase sequences — wired into Shopify, WooCommerce, or LINE.</p>
+        <span class="more">Explore e-commerce →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section id="process">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">How we work</span>
+      <h2>From "I have an idea" to "it's live" — in weeks.</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="num"></div><div><h3>Audit your bottlenecks</h3><p>We map your tools, data flow, and the repetitive work draining your team. No fluff — we surface the highest-ROI automation targets first.</p></div></div>
+      <div class="step"><div class="num"></div><div><h3>Architect the system</h3><p>We design the logic: triggers, webhooks, conditional routing, error handling. Defining exactly what connects, how data flows, and where a human stays in the loop.</p></div></div>
+      <div class="step"><div class="num"></div><div><h3>Build &amp; stress-test</h3><p>We build on self-hosted n8n with retry logic and fail-safes, then test against real data volume so it holds up in production — not just in a demo.</p></div></div>
+      <div class="step"><div class="num"></div><div><h3>Deploy &amp; hand over</h3><p>Live on your infrastructure with monitoring and alerts. The workflows stay in your n8n account — you own them, and we can keep optimizing on retainer.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING / OFFER ============ -->
+<section id="pricing" class="bg-lilac">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Start here</span>
+      <h2>Sample the work before you commit to the system.</h2>
+      <p>Begin with one production-ready workflow. See the pattern, prove the value, then scale into a full architecture when you're ready.</p>
+    </div>
+    <div class="grid grid-2" style="align-items:start; max-width:920px; margin:0 auto;">
+      <div class="offer feature">
+        <span class="tag">START HERE · $47</span>
+        <h3 style="margin-bottom:6px;">First Workflow, Deployed</h3>
+        <div class="price">$47</div>
+        <p class="muted" style="font-size:.95rem; margin-top:6px;">One production automation, built and handed to you.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> One workflow built to your spec (lead routing, alert, or sync)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Importable n8n JSON — yours to keep</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> 15-min setup walkthrough video</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Error handling + retry logic included</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Get your first workflow</a>
+      </div>
+      <div class="offer">
+        <h3 style="margin-bottom:6px;">Full Automation Retainer</h3>
+        <div class="price">From $2k<small> / month</small></div>
+        <p class="muted" style="font-size:.95rem; margin-top:6px;">Ongoing architecture for teams going all-in.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Full workflow audit + 30/60/90-day roadmap</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Self-hosted n8n deployment on your infrastructure</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Custom integrations + AI agent workflows</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Monitoring, maintenance, and ongoing optimization</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost" style="width:100%; justify-content:center;">Book a strategy call</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / LEAD FORM ============ -->
+<section id="contact">
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:center; gap:48px;">
+      <div>
+        <span class="eyebrow">Let's talk</span>
+        <h2>Tell us what's eating your team's time.</h2>
+        <p class="muted" style="font-size:1.1rem; margin:18px 0;">Send one process you'd love to never touch again. We'll reply with how we'd automate it — and whether the $47 starter or a full build is the right move. This form runs on the exact n8n → Postgres → Telegram pipeline we'd build for you.</p>
+        <div class="related" style="margin-top:30px;">
+          <h4>Popular starting points</h4>
+          <div class="related-links">
+            <a href="/solutions/lead-routing-automation.html">Lead routing</a>
+            <a href="/solutions/zapier-to-n8n-migration.html">Zapier migration</a>
+            <a href="/solutions/crm-data-sync.html">CRM sync</a>
+            <a href="/solutions/ai-agent-workflows.html">AI agents</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form class="lead-form" id="leadForm">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="email">Work email</label>
+            <input type="email" id="email" name="email" required placeholder="you@company.com">
+          </div>
+          <div class="field">
+            <label for="interest">What do you want to automate?</label>
+            <select id="interest" name="interest">
+              <option value="lead-routing">Lead routing &amp; alerts</option>
+              <option value="zapier-migration">Zapier / Make migration</option>
+              <option value="crm-sync">CRM &amp; data sync</option>
+              <option value="ai-agents">AI agent workflows</option>
+              <option value="reporting">Automated reporting</option>
+              <option value="ecommerce">E-commerce automation</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Describe the process (optional)</label>
+            <textarea id="message" name="message" placeholder="e.g. Every new Typeform submission, we manually copy into Airtable and Slack the sales team..."></textarea>
+          </div>
+          <div class="field field-check">
+            <input type="checkbox" id="consent" name="consent">
+            <label for="consent">Send me occasional automation tips and n8n workflow ideas. No spam.</label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;" id="submitBtn">Send it over</button>
+          <div class="form-msg" id="formMsg"></div>
+          <p class="form-note">We reply within one business day · Bangkok, GMT+7</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="brand" style="color:#fff;">
+          <svg class="brand-mark" width="30" height="30" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#6d28d9"/><circle cx="9" cy="9" r="3" fill="#c026d3"/><circle cx="23" cy="9" r="3" fill="#a855f7"/><circle cx="16" cy="23" r="3" fill="#fff"/><path d="M9 9 L16 23 L23 9" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".85"/></svg>
+          Motavi
+        </a>
+        <p>Self-hosted n8n automation, architected by an operator who runs eight companies on this exact stack. Bangkok → worldwide.</p>
+      </div>
+      <div>
+        <h4>Solutions</h4>
+        <a href="/solutions/lead-routing-automation.html">Lead routing</a>
+        <a href="/solutions/zapier-to-n8n-migration.html">Zapier migration</a>
+        <a href="/solutions/crm-data-sync.html">CRM sync</a>
+        <a href="/solutions/ai-agent-workflows.html">AI agents</a>
+        <a href="/solutions/automated-reporting.html">Reporting</a>
+        <a href="/solutions/ecommerce-automation.html">E-commerce</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="/#how">How it works</a>
+        <a href="/case-studies/">Case studies</a>
+        <a href="/#pricing">Pricing</a>
+        <a href="/#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Get started</h4>
+        <a href="/#pricing">First workflow — $47</a>
+        <a href="/#contact">Book a strategy call</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Motavi. All rights reserved.</span>
+      <span class="mono">Built on n8n · Postgres · Hetzner</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Mobile nav
+document.getElementById('navToggle').addEventListener('click', function(){
+  document.getElementById('navLinks').classList.toggle('open');
+});
+
+// UTM capture → sessionStorage (persists across pages)
+(function(){
+  var params = new URLSearchParams(window.location.search);
+  var utmKeys = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+  var found = {};
+  var has = false;
+  utmKeys.forEach(function(k){ if(params.get(k)){ found[k]=params.get(k); has=true; } });
+  if(has){ sessionStorage.setItem('mv_utms', JSON.stringify(found)); }
+})();
+
+// Lead form → n8n webhook
+document.getElementById('leadForm').addEventListener('submit', async function(e){
+  e.preventDefault();
+  var btn = document.getElementById('submitBtn');
+  var msg = document.getElementById('formMsg');
+  btn.disabled = true; btn.textContent = 'Sending…';
+  msg.className = 'form-msg';
+
+  var utms = {};
+  try { utms = JSON.parse(sessionStorage.getItem('mv_utms') || '{}'); } catch(e){}
+
+  var payload = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    interest: document.getElementById('interest').value,
+    message: document.getElementById('message').value,
+    consent: document.getElementById('consent').checked,
+    page: window.location.pathname,
+    submittedAt: new Date().toISOString(),
+    utmSource: utms.utm_source || '',
+    utmMedium: utms.utm_medium || '',
+    utmCampaign: utms.utm_campaign || '',
+    utmTerm: utms.utm_term || '',
+    utmContent: utms.utm_content || ''
+  };
+
+  try {
+    var res = await fetch('https://n8n.motavi.com/webhook/lead', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if(!res.ok) throw new Error('bad response');
+    msg.className = 'form-msg ok';
+    msg.textContent = 'Got it — your message is in. We\'ll reply within one business day.';
+    document.getElementById('leadForm').reset();
+  } catch(err) {
+    msg.className = 'form-msg err';
+    msg.textContent = 'Something went wrong sending that. Email us directly at hello@motavi.com and we\'ll sort it.';
+  } finally {
+    btn.disabled = false; btn.textContent = 'Send it over';
+  }
+});
+
+// Subtle hero flow-line animation (respects reduced-motion via CSS)
+(function(){
+  var c = document.getElementById('heroCanvas');
+  if(!c) return;
+  var svg = '<svg width="100%" height="100%" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" style="opacity:.5">'
+    + '<defs><radialGradient id="g1" cx="20%" cy="15%" r="60%"><stop offset="0%" stop-color="#ede9fe"/><stop offset="100%" stop-color="#faf9ff"/></radialGradient>'
+    + '<linearGradient id="flow" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#a855f7" stop-opacity="0"/><stop offset="50%" stop-color="#c026d3" stop-opacity=".5"/><stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/></linearGradient></defs>'
+    + '<rect width="1200" height="600" fill="url(#g1)"/>'
+    + '<g stroke="url(#flow)" stroke-width="1.5" fill="none">'
+    + '<path d="M-50 120 Q 300 60 600 200 T 1250 180"/>'
+    + '<path d="M-50 320 Q 350 420 700 300 T 1250 360"/>'
+    + '<path d="M-50 500 Q 300 440 650 520 T 1250 480"/>'
+    + '</g>'
+    + '<g fill="#c026d3">'
+    + '<circle cx="600" cy="200" r="4"/><circle cx="700" cy="300" r="4" fill="#a855f7"/><circle cx="650" cy="520" r="4" fill="#6d28d9"/>'
+    + '</g></svg>';
+  c.innerHTML = svg;
+})();
+</script>
+</body>
+</html>
