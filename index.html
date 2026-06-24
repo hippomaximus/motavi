@@ -6,6 +6,11 @@
 <title>Motavi — n8n Automation Studio | Self-Hosted Workflows for SaaS & Agencies</title>
 <meta name="description" content="Motavi builds self-hosted n8n automations that cut manual work and kill the Zapier bill. Lead routing, CRM sync, AI workflows — architected by an operator who runs eight companies on this exact stack. Deploy your first workflow for $47.">
 <link rel="canonical" href="https://motavi.com/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta property="og:image" content="https://motavi.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+
 <meta property="og:title" content="Motavi — n8n Automation Studio">
 <meta property="og:description" content="Self-hosted n8n automation for SaaS & agencies. Deploy your first production workflow for $47.">
 <meta property="og:type" content="website">
@@ -26,6 +31,32 @@
   "serviceType": "n8n workflow automation"
 }
 </script>
+<!-- Analytics (consent-gated). Replace placeholders, then they fire. -->
+<script>
+(function(){
+  // Flip to true once you have consent (or wire to a cookie banner).
+  var ANALYTICS_CONSENT = true;
+  var GA4_ID = "G-XXXXXXXXXX";        // <-- replace with your GA4 Measurement ID
+  var CLARITY_ID = "xxxxxxxxxx";       // <-- replace with your Microsoft Clarity project ID
+  if(!ANALYTICS_CONSENT) return;
+
+  // GA4
+  if(GA4_ID && GA4_ID.indexOf("XXXX")===-1){
+    var s=document.createElement("script");
+    s.async=true; s.src="https://www.googletagmanager.com/gtag/js?id="+GA4_ID;
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date()); gtag("config", GA4_ID);
+  }
+  // Microsoft Clarity
+  if(CLARITY_ID && CLARITY_ID.indexOf("xxxx")===-1){
+    (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script",CLARITY_ID);
+  }
+})();
+</script>
 </head>
 <body>
 
@@ -43,6 +74,7 @@
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="/#how">How it works</a>
+      <a href="/n8n-automation-services.html">Services</a>
       <a href="/#solutions">Solutions</a>
       <a href="/case-studies/">Case studies</a>
       <a href="/#pricing">Pricing</a>

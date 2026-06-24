@@ -6,6 +6,11 @@
 <title>Zapier to n8n Migration | Cut Automation Costs up to 90% — Motavi</title>
 <meta name="description" content="Migrate your workflows from Zapier or Make to self-hosted n8n and escape per-task pricing. Same automations, a fraction of the cost, full data ownership. We handle the rebuild with no downtime.">
 <link rel="canonical" href="https://motavi.com/solutions/zapier-to-n8n-migration.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta property="og:image" content="https://motavi.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+
 <meta property="og:title" content="Zapier to n8n Migration | Cut Automation Costs up to 90% — Motavi">
 <meta property="og:description" content="Migrate your workflows from Zapier or Make to self-hosted n8n and escape per-task pricing. Same automations, a fraction of the cost, full data ownership. We handle the rebuild with no downtime.">
 <meta property="og:type" content="article">
@@ -31,6 +36,32 @@
   "mainEntity": [{"@type":"Question","name":"How much can I save migrating from Zapier to n8n?","acceptedAnswer":{"@type":"Answer","text":"Most teams cut monthly automation costs by up to 90% because self-hosted n8n has no per-task pricing — you pay for server resources, not per execution."}},{"@type":"Question","name":"Will my automations break during the migration?","acceptedAnswer":{"@type":"Answer","text":"No. We run the new n8n workflows in parallel against real data until they're proven, then cut over with no downtime."}},{"@type":"Question","name":"Is n8n harder to maintain than Zapier?","acceptedAnswer":{"@type":"Answer","text":"It's more powerful, which means more capable. We hand over documented, monitored workflows and can maintain them on retainer so your team isn't on the hook for upkeep."}}]
 }
 </script>
+<!-- Analytics (consent-gated). Replace placeholders, then they fire. -->
+<script>
+(function(){
+  // Flip to true once you have consent (or wire to a cookie banner).
+  var ANALYTICS_CONSENT = true;
+  var GA4_ID = "G-XXXXXXXXXX";        // <-- replace with your GA4 Measurement ID
+  var CLARITY_ID = "xxxxxxxxxx";       // <-- replace with your Microsoft Clarity project ID
+  if(!ANALYTICS_CONSENT) return;
+
+  // GA4
+  if(GA4_ID && GA4_ID.indexOf("XXXX")===-1){
+    var s=document.createElement("script");
+    s.async=true; s.src="https://www.googletagmanager.com/gtag/js?id="+GA4_ID;
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date()); gtag("config", GA4_ID);
+  }
+  // Microsoft Clarity
+  if(CLARITY_ID && CLARITY_ID.indexOf("xxxx")===-1){
+    (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script",CLARITY_ID);
+  }
+})();
+</script>
 </head>
 <body>
 <header class="site-header">
@@ -41,6 +72,7 @@
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="/#how">How it works</a>
+      <a href="/n8n-automation-services.html">Services</a>
       <a href="/#solutions">Solutions</a>
       <a href="/case-studies/">Case studies</a>
       <a href="/#pricing">Pricing</a>
@@ -132,6 +164,7 @@
         <a href="/solutions/ecommerce-automation.html">E-commerce</a>
       </div>
       <div><h4>Company</h4>
+        <a href="/n8n-automation-services.html">Services</a>
         <a href="/#how">How it works</a>
         <a href="/case-studies/">Case studies</a>
         <a href="/#pricing">Pricing</a>

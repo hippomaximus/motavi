@@ -6,6 +6,11 @@
 <title>E-commerce Automation with n8n | Order, Inventory & Cart Flows — Motavi</title>
 <meta name="description" content="Automate order alerts, inventory thresholds, abandoned-cart recovery, and post-purchase sequences with self-hosted n8n. Wired into Shopify, WooCommerce, and LINE for stores that run themselves.">
 <link rel="canonical" href="https://motavi.com/solutions/ecommerce-automation.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta property="og:image" content="https://motavi.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+
 <meta property="og:title" content="E-commerce Automation with n8n | Order, Inventory & Cart Flows — Motavi">
 <meta property="og:description" content="Automate order alerts, inventory thresholds, abandoned-cart recovery, and post-purchase sequences with self-hosted n8n. Wired into Shopify, WooCommerce, and LINE for stores that run themselves.">
 <meta property="og:type" content="article">
@@ -31,6 +36,32 @@
   "mainEntity": [{"@type":"Question","name":"Which e-commerce platforms do you support?","acceptedAnswer":{"@type":"Answer","text":"Shopify, WooCommerce, and custom storefronts, plus social and messaging channels like LINE and WhatsApp — unified into one automation pipeline."}},{"@type":"Question","name":"Can you recover abandoned carts without a paid app?","acceptedAnswer":{"@type":"Answer","text":"Yes. A self-hosted n8n workflow can detect a stalled checkout and trigger a personalized follow-up sequence, with no per-message app fee."}},{"@type":"Question","name":"Will inventory stay accurate across channels?","acceptedAnswer":{"@type":"Answer","text":"The workflow keeps stock levels synced between your store, database, and fulfilment tools, and alerts you before you run low — so you don't oversell."}}]
 }
 </script>
+<!-- Analytics (consent-gated). Replace placeholders, then they fire. -->
+<script>
+(function(){
+  // Flip to true once you have consent (or wire to a cookie banner).
+  var ANALYTICS_CONSENT = true;
+  var GA4_ID = "G-XXXXXXXXXX";        // <-- replace with your GA4 Measurement ID
+  var CLARITY_ID = "xxxxxxxxxx";       // <-- replace with your Microsoft Clarity project ID
+  if(!ANALYTICS_CONSENT) return;
+
+  // GA4
+  if(GA4_ID && GA4_ID.indexOf("XXXX")===-1){
+    var s=document.createElement("script");
+    s.async=true; s.src="https://www.googletagmanager.com/gtag/js?id="+GA4_ID;
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date()); gtag("config", GA4_ID);
+  }
+  // Microsoft Clarity
+  if(CLARITY_ID && CLARITY_ID.indexOf("xxxx")===-1){
+    (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script",CLARITY_ID);
+  }
+})();
+</script>
 </head>
 <body>
 <header class="site-header">
@@ -41,6 +72,7 @@
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="/#how">How it works</a>
+      <a href="/n8n-automation-services.html">Services</a>
       <a href="/#solutions">Solutions</a>
       <a href="/case-studies/">Case studies</a>
       <a href="/#pricing">Pricing</a>
@@ -131,6 +163,7 @@
         <a href="/solutions/ecommerce-automation.html">E-commerce</a>
       </div>
       <div><h4>Company</h4>
+        <a href="/n8n-automation-services.html">Services</a>
         <a href="/#how">How it works</a>
         <a href="/case-studies/">Case studies</a>
         <a href="/#pricing">Pricing</a>

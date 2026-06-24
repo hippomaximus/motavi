@@ -6,12 +6,52 @@
 <title>Case Studies — Real n8n Automations We Run in Production | Motavi</title>
 <meta name="description" content="Real n8n workflows Motavi built and runs across eight live companies: lead capture pipelines, content intelligence feeds, e-commerce operations, and AI classification — the proof behind the service.">
 <link rel="canonical" href="https://motavi.com/case-studies/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta property="og:image" content="https://motavi.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+
 <meta property="og:title" content="Case Studies — Motavi n8n Automations">
 <meta property="og:description" content="Real n8n workflows we built and run in production across eight companies.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
+<!-- Analytics (consent-gated). Replace placeholders, then they fire. -->
+<script>
+(function(){
+  // Flip to true once you have consent (or wire to a cookie banner).
+  var ANALYTICS_CONSENT = true;
+  var GA4_ID = "G-XXXXXXXXXX";        // <-- replace with your GA4 Measurement ID
+  var CLARITY_ID = "xxxxxxxxxx";       // <-- replace with your Microsoft Clarity project ID
+  if(!ANALYTICS_CONSENT) return;
+
+  // GA4
+  if(GA4_ID && GA4_ID.indexOf("XXXX")===-1){
+    var s=document.createElement("script");
+    s.async=true; s.src="https://www.googletagmanager.com/gtag/js?id="+GA4_ID;
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date()); gtag("config", GA4_ID);
+  }
+  // Microsoft Clarity
+  if(CLARITY_ID && CLARITY_ID.indexOf("xxxx")===-1){
+    (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script",CLARITY_ID);
+  }
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Motavi Case Studies",
+  "description": "Real n8n workflows built and run in production across eight live companies.",
+  "url": "https://motavi.com/case-studies/"
+}
+</script>
 </head>
 <body>
 <header class="site-header">
@@ -22,6 +62,7 @@
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="/#how">How it works</a>
+      <a href="/n8n-automation-services.html">Services</a>
       <a href="/#solutions">Solutions</a>
       <a href="/case-studies/">Case studies</a>
       <a href="/#pricing">Pricing</a>
@@ -98,6 +139,7 @@
         <a href="/solutions/ecommerce-automation.html">E-commerce</a>
       </div>
       <div><h4>Company</h4>
+        <a href="/n8n-automation-services.html">Services</a>
         <a href="/#how">How it works</a>
         <a href="/case-studies/">Case studies</a>
         <a href="/#pricing">Pricing</a>
