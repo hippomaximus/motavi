@@ -76,7 +76,7 @@
       <a href="/#solutions">Solutions</a>
       <a href="/case-studies/">Case studies</a>
       <a href="/#pricing">Pricing</a>
-      <a href="/#contact" class="nav-cta">Book a call</a>
+      <a href="javascript:void(0)" data-cal-namespace="strategy" data-cal-link="automate/strategy-call" data-cal-config='{"layout":"month_view","theme":"light"}' class="nav-cta">Book a call</a>
     </nav>
     <button class="nav-toggle" id="navToggle" aria-label="Menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1a1130" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
   </div>
@@ -91,7 +91,7 @@
     <p class="hero-sub" style="max-width:60ch;">Nobody should spend Monday morning exporting spreadsheets and pasting charts. We build n8n workflows that gather data from your analytics, CRM, store, and database, format it, and deliver the report on schedule — with alerts when a number moves the wrong way.</p>
     <div class="hero-actions" style="margin-top:26px;">
       <a href="/#pricing" class="btn btn-primary">Deploy this for $47</a>
-      <a href="/#contact" class="btn btn-ghost">Book a strategy call</a>
+      <a href="javascript:void(0)" data-cal-namespace="strategy" data-cal-link="automate/strategy-call" data-cal-config='{"layout":"month_view","theme":"light"}' class="btn btn-ghost">Book a strategy call</a>
     </div>
   </div>
 </section>
@@ -171,7 +171,11 @@
       </div>
       <div><h4>Get started</h4>
         <a href="/#pricing">First workflow — $47</a>
-        <a href="/#contact">Book a strategy call</a>
+        <a href="javascript:void(0)" data-cal-namespace="strategy" data-cal-link="automate/strategy-call" data-cal-config='{"layout":"month_view","theme":"light"}'>Book a strategy call</a>
+      
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms &amp; Conditions</a>
+        <a href="/disclaimer.html">Disclaimer</a>
       </div>
     </div>
     <div class="footer-bottom"><span>© 2026 Motavi. All rights reserved.</span><span class="mono">Built on n8n · Postgres · Hetzner</span></div>
@@ -179,6 +183,12 @@
 </footer>
 <script>
 document.getElementById('navToggle').addEventListener('click',function(){document.getElementById('navLinks').classList.toggle('open');});
+</script>
+<!-- Cal.com popup embed -->
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.motavi.com/embed/embed.js", "init");
+Cal("init", "strategy", {origin:"https://cal.motavi.com"});
+Cal.ns.strategy("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#6d28d9"}},"hideEventTypeDetails":false,"layout":"month_view"});
 </script>
 </body>
 </html>

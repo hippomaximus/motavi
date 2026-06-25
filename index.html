@@ -78,7 +78,7 @@
       <a href="/#solutions">Solutions</a>
       <a href="/case-studies/">Case studies</a>
       <a href="/#pricing">Pricing</a>
-      <a href="/#contact" class="nav-cta">Book a call</a>
+      <a href="javascript:void(0)" data-cal-namespace="strategy" data-cal-link="automate/strategy-call" data-cal-config='{"layout":"month_view","theme":"light"}' class="nav-cta">Book a call</a>
     </nav>
     <button class="nav-toggle" id="navToggle" aria-label="Menu">
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1a1130" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -95,7 +95,7 @@
     <p class="hero-sub">Lead routing, CRM sync, reporting, follow-ups — the busywork eating 20+ hours a week. We architect self-hosted n8n workflows that run it for you, on your own infrastructure, without the per-task Zapier bill.</p>
     <div class="hero-actions">
       <a href="#pricing" class="btn btn-primary btn-lg">Deploy your first workflow — $47</a>
-      <a href="#contact" class="btn btn-ghost btn-lg">Book a strategy call</a>
+      <a href="javascript:void(0)" data-cal-namespace="strategy" data-cal-link="automate/strategy-call" data-cal-config='{"layout":"month_view","theme":"light"}' class="btn btn-ghost btn-lg">Book a strategy call</a>
     </div>
     <div class="hero-trust">
       <span class="lbl">Built on the same stack that runs:</span>
@@ -280,7 +280,7 @@ Form submit
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Custom integrations + AI agent workflows</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Monitoring, maintenance, and ongoing optimization</li>
         </ul>
-        <a href="#contact" class="btn btn-ghost" style="width:100%; justify-content:center;">Book a strategy call</a>
+        <a href="javascript:void(0)" data-cal-namespace="strategy" data-cal-link="automate/strategy-call" data-cal-config='{"layout":"month_view","theme":"light"}' class="btn btn-ghost" style="width:100%; justify-content:center;">Book a strategy call</a>
       </div>
     </div>
   </div>
@@ -373,7 +373,10 @@ Form submit
       <div>
         <h4>Get started</h4>
         <a href="/#pricing">First workflow — $47</a>
-        <a href="/#contact">Book a strategy call</a>
+        <a href="javascript:void(0)" data-cal-namespace="strategy" data-cal-link="automate/strategy-call" data-cal-config='{"layout":"month_view","theme":"light"}'>Book a strategy call</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms &amp; Conditions</a>
+        <a href="/disclaimer.html">Disclaimer</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -426,7 +429,7 @@ document.getElementById('leadForm').addEventListener('submit', async function(e)
   };
 
   try {
-    var res = await fetch('https://n8n.motavi.com/webhook/lead', {
+    var res = await fetch('https://ghost.motavi.com/webhook/lead', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -461,6 +464,12 @@ document.getElementById('leadForm').addEventListener('submit', async function(e)
     + '</g></svg>';
   c.innerHTML = svg;
 })();
+</script>
+<!-- Cal.com popup embed -->
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://cal.motavi.com/embed/embed.js", "init");
+Cal("init", "strategy", {origin:"https://cal.motavi.com"});
+Cal.ns.strategy("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#6d28d9"}},"hideEventTypeDetails":false,"layout":"month_view"});
 </script>
 </body>
 </html>
